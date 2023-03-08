@@ -4,7 +4,7 @@ public class ContaCorrente extends Conta {
 
 	@Override
 	void rentabilizar() {
-		this.saldo *= 1.011;
+		this.saldo *= 1.01;
 	}
 	
 }

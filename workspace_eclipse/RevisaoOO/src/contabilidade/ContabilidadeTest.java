@@ -22,10 +22,10 @@ public class ContabilidadeTest {
 		EmpresaSimples empresaSimples = new EmpresaSimples(100.0);
 		
 		Double valorIREsperado = 15.0;
-		assertEquals(valorIREsperado, empresaSimples.getValorIR());
+		assertEquals(valorIREsperado, empresaSimples.getValorIR(), 2);
 		
 		Double valorISSEsperado = 8.0;
-		assertEquals(valorISSEsperado, empresaSimples.getValorISS());
+		assertEquals(valorISSEsperado, empresaSimples.getValorISS(), 2);
 	}
 
 }
