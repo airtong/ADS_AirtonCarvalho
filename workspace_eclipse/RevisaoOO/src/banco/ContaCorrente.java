@@ -6,5 +6,10 @@ public class ContaCorrente extends Conta {
 	void rentabilizar() {
 		this.saldo *= 1.01;
 	}
+
+	@Override
+	public String toString() {
+		return "Conta corrente [saldo=" + saldo + "]";
+	}
 	
 }
